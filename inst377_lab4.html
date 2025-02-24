@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>INST377 - Lab 4</title>
+    <link rel="stylesheet" href="lab4_style.css">
+</head>
+<body>
+    <h1 id="main-heading">INST377 - Lab 4</h1>
+    
+    <!-- Alert Me -->
+    <section class="box">
+        <h2>Name:</h2>
+        <form id="alert-form">
+            <input type="text" id="name-input"required>
+            <button type="button" onclick="showAlert()">Alert Me</button>
+        </form>
+    </section>
+    
+    <!-- Change Color -->
+    <section class="box">
+        <button onclick="changeColor()">Change Color</button>
+    </section>
+    
+    <!-- Text Tester -->
+    <section class="box">
+        <h2>Text Tester:</h2>
+        <input type="text" id="text-input">
+        <button onclick="validateText()">Validate Text</button>
+    </section>
+    
+    <!-- Add Text -->
+    <section class="box">
+        <button onclick="addText()">Add Text</button>
+    </section>
+    
+    <script src="lab4_script.js"></script>
+</body>
+</html>
